@@ -14,9 +14,10 @@ Use the format X.Y.Z[-alpha]
 e.g. 1.0.0 for a production release
 e.g. 1.0.0-alpha for a rc release
 
-- Create a new release in Github with the same version name: https://github.com/NeWbLt123/Omnimed-delphi-documentarchiver-releases/releases/new
+- Create a new release in Github with the same version name: https://github.com/Omnimed/Omnimed-delphi-documentarchiver-releases/releases/new
+- Create a new tag matching the version name
 - Add a description in the release notes
-- Check the `Set as a pre-release` option for an alpha release
+- Check the `Set as a pre-release` option for an alpha release (note that files will only be downloadable from Github's page for pre-releases)
 - Check the `Set as the latest release` option for an official release
 - Add every files within `C:\Omnimed-delphi-documentarchiver-releases\VERSION_NAME` in the `Attach binaries...` section
 - Click on `Publish release`
