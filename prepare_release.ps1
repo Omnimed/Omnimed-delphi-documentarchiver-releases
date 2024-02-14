@@ -18,7 +18,6 @@ if (-not (Test-Path -Path "$destinationFolderPath\$VersionNumber" -PathType Cont
 # Copy the executable files
 Copy-Item -Path "$sourceFolderPath\AutonumO\AutonumO.exe" -Destination "$destinationFolderPath\$VersionNumber"
 Copy-Item -Path "$sourceFolderPath\ClasseurO\ClasseurO.exe" -Destination "$destinationFolderPath\$VersionNumber"
-Copy-Item -Path "$sourceFolderPath\ClasseurO\Class_lang.txt" -Destination "$destinationFolderPath\$VersionNumber"
 Copy-Item -Path "$sourceFolderPath\ClasseurO\DTKBarReader.dll" -Destination "$destinationFolderPath\$VersionNumber"
 Copy-Item -Path "$sourceFolderPath\ClasseurO\eng.traineddata" -Destination "$destinationFolderPath\$VersionNumber"
 Copy-Item -Path "$sourceFolderPath\ClasseurO\fra.traineddata" -Destination "$destinationFolderPath\$VersionNumber"
