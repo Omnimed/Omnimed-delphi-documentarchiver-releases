@@ -24,3 +24,8 @@ e.g. 1.0.0-alpha for a rc release
 
 The files can be downloaded individually with the URL https://github.com/Omnimed/Omnimed-delphi-documentarchiver-releases/releases/latest/download/FILE_NAME
 The file `last-modified.dat` is used to keep track of the `Date modified` field of every file for automatic updates by the client.
+
+## Push to Git Repository
+Note: There should not be much to commit in this repository except for documentation and scripts.
+The push to Github works with a token generated on Github (https://github.com/settings/tokens).
+To update the remotes, call the Powershell script and pass the token as argument: `powershell ./update_github_token.ps1 GITHUB_TOKEN`.
