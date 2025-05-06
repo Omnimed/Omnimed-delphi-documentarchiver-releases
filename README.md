@@ -27,5 +27,9 @@ The file `last-modified.dat` is used to keep track of the `Date modified` field 
 
 ## Push to Git Repository
 Note: There should not be much to commit in this repository except for documentation and scripts.
-The push to Github works with a token generated on Github (https://github.com/settings/tokens).
-To update the remotes, call the Powershell script and pass the token as argument: `powershell ./update_github_token.ps1 GITHUB_TOKEN`.
+The push to Github works with a token generated on Github (https://github.com/settings/personal-access-tokens).
+Token name: `ProgDelphi01-<YYYYMMDD>`
+Repository access: Only selected repositories: `Omnimed-delphi-documentarchiver`, `Omnimed-delphi-documentarchiver-releases`
+Repository permissions: Contents: Read and write
+
+To update the git remotes, copy the generated access token from Github and call the Powershell script with the token as argument: `powershell ./update_github_token.ps1 'GITHUB_TOKEN'`.
