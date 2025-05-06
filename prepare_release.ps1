@@ -21,6 +21,7 @@ Copy-Item -Path "$sourceFolderPath\ClasseurO\ClasseurO.exe" -Destination "$desti
 Copy-Item -Path "$sourceFolderPath\ClasseurO\DTKBarReader.dll" -Destination "$destinationFolderPath\$VersionNumber"
 Copy-Item -Path "$sourceFolderPath\ClasseurO\eng.traineddata" -Destination "$destinationFolderPath\$VersionNumber"
 Copy-Item -Path "$sourceFolderPath\ClasseurO\fra.traineddata" -Destination "$destinationFolderPath\$VersionNumber"
+Copy-Item -Path "$sourceFolderPath\ClasseurO\iepdf32.dll" -Destination "$destinationFolderPath\$VersionNumber"
 Copy-Item -Path "$sourceFolderPath\ClasseurO\ievision.dll" -Destination "$destinationFolderPath\$VersionNumber"
 Copy-Item -Path "$sourceFolderPath\Installateur\Omnimed_classeur_inst.exe" -Destination "$destinationFolderPath\$VersionNumber"
 Copy-Item -Path "$sourceFolderPath\NumO\NumO.exe" -Destination "$destinationFolderPath\$VersionNumber"
